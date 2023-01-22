@@ -1,0 +1,44 @@
+<!-- <p>gallery works!</p> -->
+<h1>GALERIA DE ANIMES</h1>
+
+<h2>Animes populares esta semana</h2>
+<div class="galeria">
+<figure class="figure" *ngFor="let item of list">
+    <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+    <figcaption class="titulo">{{item.attributes.canonicalTitle}}</figcaption>
+  </figure>
+</div>
+
+<h2>Animes más populares en emisión</h2>
+<div class="galeria">
+  <figure class="figure" *ngFor="let item of list2">
+      <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+      <figcaption class="titulo">{{item.attributes.canonicalTitle}}</figcaption>
+    </figure>
+  </div>
+  
+  <h2>Animes más esperados</h2>
+<div class="galeria">
+  <figure class="figure" *ngFor="let item of list3">
+      <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+      <figcaption class="titulo">{{item.attributes.canonicalTitle}}</figcaption>
+    </figure>
+  </div>
+
+  <h2>Animes mejor evaluados</h2>
+  <div class="galeria">
+    <figure class="figure" *ngFor="let item of list4">
+        <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+        <figcaption class="titulo">{{item.attributes.canonicalTitle}}</figcaption>
+      </figure>
+    </div>
+
+    <h2>Animes más populares</h2>
+    <div class="galeria">
+      <figure class="figure" *ngFor="let item of list5">
+          <img src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+          <figcaption class="titulo">{{item.attributes.canonicalTitle}}</figcaption>
+        </figure>
+      </div>
+
+<!-- <img width="300" src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}"> -->
