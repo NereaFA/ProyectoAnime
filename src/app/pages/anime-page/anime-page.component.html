@@ -1,1 +1,4 @@
-<p>anime-page works!</p>
+
+<input type="text" [(ngModel)]="searchText">
+<button (click) = "search()">Buscar</button>
+<app-gallery [list]="animesSearch"></app-gallery>

@@ -1,6 +1,17 @@
 <!-- <p>home-page works!</p> -->
+<h1>GALERIA DE ANIMES</h1>
+
 
 <div class="galeria">
-<app-gallery [list]="animes" [list2]="animes2" [list3]="animes3" [list4]="animes4" [list5]="animes5"></app-gallery>
+    <h2>Animes populares esta semana</h2>
+<app-gallery [list]="animes"></app-gallery>
+<h2>Animes más populares en emisión</h2>
+<app-gallery [list]="animes2"></app-gallery>
+<h2>Animes más esperados</h2>
+<app-gallery [list]="animes3"></app-gallery>
+<h2>Animes mejor evaluados</h2>
+<app-gallery [list]="animes4"></app-gallery>
+<h2>Animes más populares</h2>
+<app-gallery [list]="animes5"></app-gallery>
 <!-- <app-gallery [list2]="animes2"></app-gallery> -->
 </div>

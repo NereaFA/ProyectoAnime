@@ -43,5 +43,6 @@ export class HomePageComponent implements OnInit{
         this.animes5 = res.data;
         console.log(res.data);
       });
+      
   }
 }

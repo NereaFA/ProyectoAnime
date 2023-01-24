@@ -9,6 +9,7 @@ import { AnimePageComponent } from './pages/anime-page/anime-page.component';
 import { AnimeDetailPageComponent } from './pages/anime-detail-page/anime-detail-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GalleryComponent } from './shared/components/gallery/gallery.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GalleryComponent } from './shared/components/gallery/gallery.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,9 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class GalleryComponent {
   @Input() list: any;
-  @Input() list2: any;
-  @Input() list3: any;
-  @Input() list4: any;
-  @Input() list5: any;
+
 
 }
